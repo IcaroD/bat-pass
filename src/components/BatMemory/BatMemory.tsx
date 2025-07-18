@@ -11,7 +11,7 @@ export function BatMemory(props: BatMemoryProps) {
   return (
     <>
         <TextInput 
-            placeholder="Input" 
+            placeholder="Memory" 
             multiline={true}
             value={props.text}
             style={styles.input}

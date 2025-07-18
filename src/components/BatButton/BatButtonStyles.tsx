@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
@@ -18,5 +19,13 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     letterSpacing: 0.25,
     color: '#E5BF3C',
+  },
+  memory: {
+    width: '100%',
+    color: '#E5BF3C',
+    fontSize: 20,
+    textAlign: 'left',
+    fontWeight: 'bold',
+    paddingLeft: 5
   }
 });

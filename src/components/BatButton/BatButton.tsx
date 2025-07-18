@@ -32,6 +32,8 @@ export function BatButton() {
   return (
     <>
       <BatTextInput pass={pass} />
+      <Text style={styles.memory}>Memory:</Text>
+      <BatMemory text={text} />
 
       <Pressable
         onPress={handleGenarateButton}
@@ -46,8 +48,6 @@ export function BatButton() {
       >
         <Text style={styles.text}>⚡ COPY</Text>
       </Pressable>
-
-      <BatMemory text={text} />
 
       <Pressable
         onPress={handleCleanMemoryButton}
